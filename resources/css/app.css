@@ -1,0 +1,11 @@
+.custom-card {
+    background-color: #f9fafb; /* Light gray background */
+    border: 1px solid #d1d5db; /* Border color */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 1.5rem; /* Padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

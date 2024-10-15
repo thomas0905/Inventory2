@@ -1,0 +1,13 @@
+<style>
+    .custom-card {
+        background-color: #4A90E2; /* Custom background color */
+        color: #fff; /* Custom text color */
+        border-radius: 10px; /* Custom border radius */
+        padding: 20px; /* Custom padding */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Custom box shadow */
+    }
+</style>
+
+<div class="custom-card">
+    {!! $card->render() !!}
+</div>
